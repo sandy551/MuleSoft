@@ -1,0 +1,107 @@
+{
+  "name": "formatData",
+  "time": 208,
+  "status": "OK",
+  "tests": [
+    {
+      "name": "formatData",
+      "time": 183,
+      "status": "OK",
+      "tests": [
+        {
+          "name": "It should conver values into lower case",
+          "time": 56,
+          "status": "OK",
+          "errorMessage": "Expecting Object type but was Object.",
+          "location": {
+            "start": {
+              "index": 840,
+              "line": 41,
+              "column": 9
+            },
+            "end": {
+              "index": 881,
+              "line": 41,
+              "column": 50
+            },
+            "locationString": "\n41|         \"It should conver values into lower case\" in do {\r\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "text": "\"It should conver values into lower case\" in do {",
+            "sourceIdentifier": "formatDataTest"
+          }
+        },
+        {
+          "name": "It should conver keys into upper case",
+          "time": 22,
+          "status": "OK",
+          "errorMessage": "Expecting Array type but was Array.",
+          "location": {
+            "start": {
+              "index": 982,
+              "line": 44,
+              "column": 9
+            },
+            "end": {
+              "index": 1021,
+              "line": 44,
+              "column": 48
+            },
+            "locationString": "\n44|         \"It should conver keys into upper case\" in do {\r\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "text": "\"It should conver keys into upper case\" in do {",
+            "sourceIdentifier": "formatDataTest"
+          }
+        },
+        {
+          "name": "It should conver values from a to -",
+          "time": 8,
+          "status": "OK",
+          "errorMessage": "Expecting Array type but was Array.",
+          "location": {
+            "start": {
+              "index": 1120,
+              "line": 47,
+              "column": 9
+            },
+            "end": {
+              "index": 1157,
+              "line": 47,
+              "column": 46
+            },
+            "locationString": "\n47|         \"It should conver values from a to -\" in do {\r\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "text": "\"It should conver values from a to -\" in do {",
+            "sourceIdentifier": "formatDataTest"
+          }
+        }
+      ],
+      "location": {
+        "start": {
+          "index": 804,
+          "line": 40,
+          "column": 5
+        },
+        "end": {
+          "index": 816,
+          "line": 40,
+          "column": 17
+        },
+        "locationString": "\n40|     \"formatData\" describedBy [\r\n        ^^^^^^^^^^^^",
+        "text": "\"formatData\" describedBy [",
+        "sourceIdentifier": "formatDataTest"
+      }
+    }
+  ],
+  "location": {
+    "start": {
+      "index": 772,
+      "line": 39,
+      "column": 1
+    },
+    "end": {
+      "index": 784,
+      "line": 39,
+      "column": 13
+    },
+    "locationString": "\n39| \"formatData\" describedBy [\r\n    ^^^^^^^^^^^^",
+    "text": "\"formatData\" describedBy [",
+    "sourceIdentifier": "formatDataTest"
+  }
+}

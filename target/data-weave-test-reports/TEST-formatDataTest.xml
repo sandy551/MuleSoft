@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<testsuites tests="3" time="208" name="formatData" failures="0" errors="0">
+  <testsuite tests="3" time="208" name="formatData" failures="0" skipped="0" errors="0">
+    <testsuite tests="3" time="208" name="formatData" failures="0" skipped="0" errors="0">
+      <testcase name="It should conver values into lower case" time="56" status="OK"/>
+      <testcase name="It should conver keys into upper case" time="22" status="OK"/>
+      <testcase name="It should conver values from a to -" time="8" status="OK"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
